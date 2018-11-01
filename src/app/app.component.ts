@@ -8,4 +8,9 @@ import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'app';
+  _isLoggedIn: boolean;
+
+  isLoggedIn(): boolean {
+    return false;
+  }
 }

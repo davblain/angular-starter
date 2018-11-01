@@ -11,9 +11,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { from } from 'rxjs';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './components/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './components/home/home.component';
 import { AppRoutes } from './app.routes';
 
 library.add(faSignInAlt);
