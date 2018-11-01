@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',

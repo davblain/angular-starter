@@ -1,0 +1,11 @@
+
+.login-card > * {
+  width: 100%;
+}
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+.login-form > *{
+  display: block
+}
